@@ -1,3 +1,2 @@
-<?php 
-echo "Learn OOPHP with rockade";
-?>
+<?php
+echo "Learn OOPHP with rockade!";
