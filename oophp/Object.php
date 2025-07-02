@@ -1,6 +1,6 @@
 <?php
 require_once "data/Person.php";
 
-$person = new Person(); // ini adalah cara membuat object
+$person = new Person("Ade", null); // membuat object sekaligus menambahkan parameter constructor
 
 var_dump($person);

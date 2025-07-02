@@ -1,11 +1,11 @@
 <?php
 require_once "data/Person.php";
 
-$rockade = new Person();
+$rockade = new Person("Ade", "Indonesia");
 $rockade->name = "rockade";
 $rockade->sayHello(null); // memanggil method
 
-$ronaldo = new Person();
+$ronaldo = new Person("Ronaldo", "Portugal");
 $ronaldo->name = "Cristiano, SIIUUUUUUU!";
 $ronaldo->sayHello("rockade"); // memanggil method
 
