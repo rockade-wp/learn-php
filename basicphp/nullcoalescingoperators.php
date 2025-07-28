@@ -1,4 +1,4 @@
-<?php 
+<?php
 // sebagai pengganti if statement saat mengecek sebuah data apakah ada atau tidak
 
 $data = [
@@ -15,4 +15,3 @@ echo $action . PHP_EOL; */
 // menggunakan null coalescing (??)
 $action = $data["action"] ?? "nothing";
 echo $action . PHP_EOL;
-?>

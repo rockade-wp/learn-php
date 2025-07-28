@@ -1,4 +1,4 @@
-<?php 
+<?php
 // and, bernilai true jika keduanya true
 var_dump(true && true);
 var_dump(true and false);
@@ -9,4 +9,3 @@ var_dump(false or false);
 var_dump(!false);
 // xor, bernilai true jika salah satunya false
 var_dump(true xor true);
-?>

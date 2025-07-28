@@ -1,4 +1,4 @@
-<?php 
+<?php
 $data = [1, 2, 3, 4, 5];
 // array_map() => mengubah semua data array dengan callback
 $mapFunction = fn(int $value) => $value * 10;
@@ -16,4 +16,3 @@ $person = [
 var_dump(array_keys($person));
 // array_values() => mengambil semua values milik array
 var_dump(array_values($person));
-?>

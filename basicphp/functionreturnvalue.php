@@ -1,6 +1,7 @@
-<?php 
+<?php
 // return value 1 beserta return type declaration ( ($firstName, $lastName) : string)
-function students(string $firstName, string $lastName) : string {
+function students(string $firstName, string $lastName): string
+{
   return "$firstName $lastName";
 }
 $student = students("Ade", "Syahlan");
@@ -9,7 +10,8 @@ $student = students("Fulan", "Fulana");
 var_dump($student);
 
 // return value 2 beserta return type declaration
-function getFinalValue(int $value) : string {
+function getFinalValue(int $value): string
+{
   if ($value >= 80) {
     return "A";
   } elseif ($value >= 70) {
@@ -27,4 +29,3 @@ var_dump($score);
 $score = getFinalValue("56");
 var_dump($score);
 // catatan tambahan, setelah menggunakan return, nilai dibawah nya tidak akan dieksekusi lagi
-?>

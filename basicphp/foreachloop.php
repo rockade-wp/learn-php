@@ -1,4 +1,4 @@
-<?php 
+<?php
 // foreach loop digunakan untuk mengakses perulangan pada data array
 
 // $names = ["ade", "tyas", "syafa", "aya"];
@@ -30,4 +30,3 @@ foreach ($student as $key => $value) {
     echo "$key: $value" . PHP_EOL;
   }
 }
-?>

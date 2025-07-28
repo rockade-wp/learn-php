@@ -1,4 +1,4 @@
-<?php 
+<?php
 // ini adalah operator perbandingan
 $a = 6;
 $b = "6";
@@ -20,4 +20,3 @@ var_dump($a <= $b);
 var_dump($a > $b);
 // lebih dari sama dengan (>=)
 var_dump($a >= $b);
-?>

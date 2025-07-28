@@ -1,4 +1,4 @@
-<?php 
+<?php
 // ini contoh method parameter
 /* function sayHello($name) {
   echo "Hello $name". PHP_EOL;
@@ -26,16 +26,16 @@ sum(true, false); */
 // variabel length argument list (kemampuan membuat parameter yang menerima banyak value)
 // variabel length argument list hanya bisa digunakan pada argument di posisi terakhir
 // variabel length argument list secara otomatis membuat argument menjadi array
-function sumAll(...$values) {
+function sumAll(...$values)
+{
   $total = 0;
   foreach ($values as $value) {
     $total += $value;
   }
-  echo "Total ". implode("+", $values) . " = $total" . PHP_EOL;
+  echo "Total " . implode("+", $values) . " = $total" . PHP_EOL;
 }
 sumAll(1, 2, 3, 4, 5, 6, 7, 8, 9);
 // jika sudah terlanjur membuat array, misalnya
-$values = [1,2,3];
+$values = [1, 2, 3];
 // panggil array nya dengan menambahkan ... pada argument methodnya
 sumAll(...$values);
-?>

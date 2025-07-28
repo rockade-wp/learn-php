@@ -1,4 +1,4 @@
-<?php 
+<?php
 $a = 6;
 $b = 2;
 // pertambahan
@@ -19,4 +19,3 @@ echo $pangkat . PHP_EOL;
 // sisa bagi
 $sisaBagi = $a % $b;
 echo $sisaBagi . PHP_EOL;
-?>

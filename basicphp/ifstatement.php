@@ -1,4 +1,4 @@
-<?php 
+<?php
 $nilai = 100;
 $presensi = 14;
 
@@ -8,7 +8,6 @@ if ($nilai > 100 || $presensi > 16) {
   echo "Impresive, anda lulus dengan sangat baik.";
 } elseif ($nilai >= 75 && $presensi >= 10) {
   echo "Selamat, anda lulus dengan baik.";
-}else {
+} else {
   echo "Maaf, silakan mencoba kembali tahun depan. SEMANGATTT!";
 }
-?>

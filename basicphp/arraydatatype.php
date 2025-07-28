@@ -1,4 +1,4 @@
-<?php 
+<?php
 // ARRAY TIPE NUMBER
 $names = ["ade", "tyas", "syafa", "aya"];
 // mengakses array pada nomor index ke-0
@@ -30,4 +30,3 @@ var_dump($ade);
 var_dump($ade["id"]);
 var_dump($ade["address"]["city"]);
 var_dump(count($ade));
-?>

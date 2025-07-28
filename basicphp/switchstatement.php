@@ -1,4 +1,4 @@
-<?php 
+<?php
 $pilihWarna = "1";
 
 switch ($pilihWarna) {
@@ -24,4 +24,3 @@ switch ($pilihWarna) {
     echo "Ups! Maaf pilihannya hanya 1 - 6 :)";
     break;
 }
-?>

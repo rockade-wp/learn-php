@@ -1,4 +1,4 @@
-<?php 
+<?php
 $name = "ade";
 $name = null;
 $age = null;
@@ -11,4 +11,3 @@ unset($age);
 var_dump(isset($age));
 $age = "20";
 var_dump(isset($age));
-?>

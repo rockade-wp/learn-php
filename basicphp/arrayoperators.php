@@ -1,4 +1,4 @@
-<?php 
+<?php
 // union ($a + $b): menggabungkan array $a dan $b
 // equality ($a == $b): true jika memiliki key value yang sama
 // identity ($a === $b): true jika memiliki key value dan posisi yang sama
@@ -15,4 +15,3 @@ $b = [
 ];
 var_dump($a == $b);
 var_dump($a === $b);
-?>

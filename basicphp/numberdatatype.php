@@ -1,4 +1,4 @@
-<?php 
+<?php
 echo "Decimal: ";
 var_dump(1234);
 echo "Octal: ";
@@ -18,4 +18,3 @@ echo "Floating point dengan E notation minus (8.4 x 0.001): ";
 var_dump(8.4e-3);
 echo "Underscore in floating point: ";
 var_dump(1_234.567);
-?>

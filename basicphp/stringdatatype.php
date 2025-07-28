@@ -1,4 +1,4 @@
-<?php 
+<?php
 echo 'Nama: ';
 echo 'Ade Syahlan';
 
@@ -19,4 +19,3 @@ kalau ini adalah nowdoc, fitur ini sama seperti single quote
 hanya saja ini bisa multiline string
 berbeda dengan heredoc, nowdoc tidak memiliki kemampuan parsing
 ADE;
-?>
