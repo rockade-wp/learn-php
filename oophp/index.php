@@ -1,2 +1,2 @@
 <?php
-echo "Learn OOPHP with rockade!";
+echo "Learn OOPHP with rockade-wp" . PHP_EOL;
